@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Aura-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.init.gen.cpp.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\XCharacter.gen.cpp.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\XCharacterBase.gen.cpp.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.cpp.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\XCharacter.cpp.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\XCharacterBase.cpp.obj"
+"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Default.rc2.res"
+/OUT:"C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\UnrealEditor-Aura-Win64-DebugGame.lib"

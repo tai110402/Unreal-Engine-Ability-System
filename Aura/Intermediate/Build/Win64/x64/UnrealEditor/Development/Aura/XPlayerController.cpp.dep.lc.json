@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\private\\players\\xplayercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\public\\players\\xplayercontroller.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
