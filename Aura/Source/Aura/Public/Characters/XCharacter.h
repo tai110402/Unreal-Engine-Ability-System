@@ -13,5 +13,6 @@ UCLASS()
 class AURA_API AXCharacter : public AXCharacterBase
 {
 	GENERATED_BODY()
-	
+public:
+	AXCharacter();
 };

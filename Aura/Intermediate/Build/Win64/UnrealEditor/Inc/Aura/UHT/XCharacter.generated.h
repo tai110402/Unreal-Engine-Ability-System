@@ -24,8 +24,6 @@ public: \
 
 
 #define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Characters_XCharacter_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AXCharacter(); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AXCharacter(AXCharacter&&); \

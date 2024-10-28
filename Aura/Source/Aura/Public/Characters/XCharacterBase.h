@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "XCharacterBase.generated.h"
 
+class USkeletalMeshComponent;
+
 UCLASS()
 class AURA_API AXCharacterBase : public ACharacter
 {

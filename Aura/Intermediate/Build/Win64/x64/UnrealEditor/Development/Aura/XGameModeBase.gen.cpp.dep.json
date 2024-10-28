@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\public\\games\\xgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

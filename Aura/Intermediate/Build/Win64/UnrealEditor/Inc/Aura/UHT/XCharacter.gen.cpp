@@ -75,7 +75,6 @@ template<> AURA_API UClass* StaticClass<AXCharacter>()
 {
 	return AXCharacter::StaticClass();
 }
-AXCharacter::AXCharacter() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AXCharacter);
 AXCharacter::~AXCharacter() {}
 // End Class AXCharacter

@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_XPlayerController_generated_h
 
-#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAXPlayerController(); \
 	friend struct Z_Construct_UClass_AXPlayerController_Statics; \
@@ -23,9 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AXPlayerController)
 
 
-#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AXPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AXPlayerController(AXPlayerController&&); \
@@ -33,16 +31,16 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXPlayerController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXPlayerController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AXPlayerController) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AXPlayerController) \
 	NO_API virtual ~AXPlayerController();
 
 
-#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_12_PROLOG
-#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_15_GENERATED_BODY \
+#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_17_PROLOG
+#define FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Players_XPlayerController_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

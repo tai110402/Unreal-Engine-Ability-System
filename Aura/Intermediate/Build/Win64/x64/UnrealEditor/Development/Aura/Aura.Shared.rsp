@@ -285,6 +285,9 @@
 /I "C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Intermediate\Build\Win64\UnrealEditor\Inc\Aura\UHT"
 /I "C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Source"
 /I "C:\Users\tail1\OneDrive\Desktop\Unreal-Engine-Ability-System\Aura\Source\Aura\Public"
+/I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
+/I "..\Plugins\EnhancedInput\Source"
+/I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"
