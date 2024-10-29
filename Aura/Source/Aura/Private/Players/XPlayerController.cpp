@@ -4,6 +4,7 @@
 #include "Players/XPlayerController.h"
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
+#include "Interaction/XEnemyInterface.h"
 
 AXPlayerController::AXPlayerController()
 {
@@ -36,6 +37,12 @@ void AXPlayerController::SetupInputComponent()
 	}
 }
 
+void AXPlayerController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	CursorTrace();
+}
+
 void AXPlayerController::Move(const FInputActionValue& Value)
 {
 	if (APawn* ControlledPawn = GetPawn<APawn>())
@@ -46,6 +53,49 @@ void AXPlayerController::Move(const FInputActionValue& Value)
 		const FVector RightVector = FRotationMatrix(ControllerYawRotation).GetUnitAxis(EAxis::Y);
 		ControlledPawn->AddMovementInput(ForwardVector, InputValue.Y);
 		ControlledPawn->AddMovementInput(RightVector, InputValue.X);
+	}
+}
+
+void AXPlayerController::CursorTrace()
+{
+	FHitResult HitResult;
+	GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
+	if (HitResult.bBlockingHit)
+	{
+		ActorUnderCursorLastFrame = ActorUnderCursorThisFrame;
+		ActorUnderCursorThisFrame = HitResult.GetActor();
+	}
+
+	if (ActorUnderCursorThisFrame == nullptr)
+	{
+		if (ActorUnderCursorLastFrame == nullptr)
+		{
+			// Do Nothing
+		}
+		else
+		{
+			ActorUnderCursorLastFrame->UnHightlightActor();
+		}
+	}
+	else
+	{
+		if (ActorUnderCursorLastFrame == nullptr)
+		{
+			ActorUnderCursorThisFrame->HighlightActor();
+		}
+		else
+		{
+			if (ActorUnderCursorLastFrame == ActorUnderCursorThisFrame)
+			{
+				// Do Nothing
+			}
+			else
+			{
+				ActorUnderCursorThisFrame->HighlightActor();
+				ActorUnderCursorLastFrame->UnHightlightActor();
+				
+			}
+		}
 	}
 }
 

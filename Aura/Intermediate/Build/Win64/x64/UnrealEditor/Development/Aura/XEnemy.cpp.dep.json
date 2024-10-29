@@ -17,7 +17,10 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xcharacterbase.generated.h",
-            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xenemy.generated.h"
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\public\\interaction\\xenemyinterface.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xenemyinterface.generated.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xenemy.generated.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\aura.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

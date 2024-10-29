@@ -12,6 +12,7 @@
  */
 class UInputMappingContext;
 class UInputAction;
+class IXEnemyInterface;
 struct FInputActionValue;
 
 UCLASS()
@@ -21,6 +22,7 @@ class AURA_API AXPlayerController : public APlayerController
 public:
 	AXPlayerController();
 	virtual void SetupInputComponent() override;
+	virtual void Tick(float DeltaTime) override;
 protected:
 	virtual void BeginPlay() override;
 private:
@@ -29,5 +31,9 @@ private:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> MoveInputAction;
 
+	TScriptInterface<IXEnemyInterface> ActorUnderCursorThisFrame;
+	TScriptInterface<IXEnemyInterface> ActorUnderCursorLastFrame;
+
 	void Move(const FInputActionValue& Value);
+	void CursorTrace();
 };

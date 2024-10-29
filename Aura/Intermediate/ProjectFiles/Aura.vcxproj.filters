@@ -11,6 +11,7 @@
     <None Include="..\..\Source\AuraEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -41,20 +42,68 @@
     <Filter Include="Source\Aura\Private">
       <UniqueIdentifier>{614644D7-6FA7-303B-9CB5-F9579003D315}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\Aura\Private\Character">
-      <UniqueIdentifier>{02E07034-0FE1-3A7C-A01D-10DA4A11D5EE}</UniqueIdentifier>
+    <Filter Include="Source\Aura\Private\Characters">
+      <UniqueIdentifier>{FB0A0241-9E3F-3F2C-A169-A0EECEBC48D1}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Aura\Private\Character\XCharacterBase.cpp">
-      <Filter>Source\Aura\Private\Character</Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Characters\XCharacter.cpp">
+      <Filter>Source\Aura\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\Characters\XCharacterBase.cpp">
+      <Filter>Source\Aura\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\Characters\XEnemy.cpp">
+      <Filter>Source\Aura\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\Games">
+      <UniqueIdentifier>{6E5897FD-48D0-3D91-A57E-5C507FBB8855}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Games\XGameModeBase.cpp">
+      <Filter>Source\Aura\Private\Games</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\Interaction">
+      <UniqueIdentifier>{8600DADF-1C2F-3B4E-851E-5CF3B1B94879}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Interaction\XEnemyInterface.cpp">
+      <Filter>Source\Aura\Private\Interaction</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\Players">
+      <UniqueIdentifier>{6BC3CE79-B377-3F10-AA4E-97BA73DF56DD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Players\XPlayerController.cpp">
+      <Filter>Source\Aura\Private\Players</Filter>
     </ClCompile>
     <Filter Include="Source\Aura\Public">
       <UniqueIdentifier>{812D085E-218E-32A1-B6D9-A817B3D0072A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\Aura\Public\Character">
-      <UniqueIdentifier>{5BC97E21-9AE0-3A5A-B1AE-66CDA5B00EB5}</UniqueIdentifier>
+    <Filter Include="Source\Aura\Public\Characters">
+      <UniqueIdentifier>{AD8729C7-3645-3AC0-A71E-B3F61769CE03}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\Aura\Public\Character\XCharacterBase.h">
-      <Filter>Source\Aura\Public\Character</Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Characters\XCharacter.h">
+      <Filter>Source\Aura\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Aura\Public\Characters\XCharacterBase.h">
+      <Filter>Source\Aura\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Aura\Public\Characters\XEnemy.h">
+      <Filter>Source\Aura\Public\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Games">
+      <UniqueIdentifier>{71FEC8F1-3F45-371E-923F-652F4BAC3720}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Games\XGameModeBase.h">
+      <Filter>Source\Aura\Public\Games</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Interaction">
+      <UniqueIdentifier>{AC69F4E0-FE2C-3C00-9744-FF5ECD46407C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Interaction\XEnemyInterface.h">
+      <Filter>Source\Aura\Public\Interaction</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Players">
+      <UniqueIdentifier>{DC2ED3E9-539C-3941-B4CF-ADBA44FCE966}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Players\XPlayerController.h">
+      <Filter>Source\Aura\Public\Players</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -70,7 +70,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AXCharacterBase_Statics
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AXCharacterBase_Statics::PropPointers),
 	0,
-	0x009000A4u,
+	0x009000A5u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AXCharacterBase_Statics::Class_MetaDataParams), Z_Construct_UClass_AXCharacterBase_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AXCharacterBase()
@@ -93,10 +93,10 @@ AXCharacterBase::~AXCharacterBase() {}
 struct Z_CompiledInDeferFile_FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Characters_XCharacterBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AXCharacterBase, AXCharacterBase::StaticClass, TEXT("AXCharacterBase"), &Z_Registration_Info_UClass_AXCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AXCharacterBase), 604562999U) },
+		{ Z_Construct_UClass_AXCharacterBase, AXCharacterBase::StaticClass, TEXT("AXCharacterBase"), &Z_Registration_Info_UClass_AXCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AXCharacterBase), 88446759U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Characters_XCharacterBase_h_3213590107(TEXT("/Script/Aura"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Characters_XCharacterBase_h_217148750(TEXT("/Script/Aura"),
 	Z_CompiledInDeferFile_FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Characters_XCharacterBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_tail1_OneDrive_Desktop_Unreal_Engine_Ability_System_Aura_Source_Aura_Public_Characters_XCharacterBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

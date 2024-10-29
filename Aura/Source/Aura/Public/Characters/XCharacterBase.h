@@ -8,7 +8,7 @@
 
 class USkeletalMeshComponent;
 
-UCLASS()
+UCLASS(Abstract)
 class AURA_API AXCharacterBase : public ACharacter
 {
 	GENERATED_BODY()

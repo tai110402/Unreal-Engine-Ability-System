@@ -19,7 +19,7 @@ private: \
 	static void StaticRegisterNativesAXCharacterBase(); \
 	friend struct Z_Construct_UClass_AXCharacterBase_Statics; \
 public: \
-	DECLARE_CLASS(AXCharacterBase, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
+	DECLARE_CLASS(AXCharacterBase, ACharacter, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
 	DECLARE_SERIALIZER(AXCharacterBase)
 
 
@@ -31,7 +31,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXCharacterBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXCharacterBase); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AXCharacterBase) \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(AXCharacterBase) \
 	NO_API virtual ~AXCharacterBase();
 
 
