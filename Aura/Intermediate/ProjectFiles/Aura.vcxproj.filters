@@ -42,6 +42,21 @@
     <Filter Include="Source\Aura\Private">
       <UniqueIdentifier>{614644D7-6FA7-303B-9CB5-F9579003D315}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Aura\Private\AbilitySystem">
+      <UniqueIdentifier>{E12B047D-3563-3B0F-A31F-6CA534A3F38C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\XAbilitySystemComponent.cpp">
+      <Filter>Source\Aura\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\XAttributeSet.cpp">
+      <Filter>Source\Aura\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Private\Actors">
+      <UniqueIdentifier>{12DEA544-C7D9-3863-AF34-70D3B48D7D79}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Actors\XActor.cpp">
+      <Filter>Source\Aura\Private\Actors</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Private\Characters">
       <UniqueIdentifier>{FB0A0241-9E3F-3F2C-A169-A0EECEBC48D1}</UniqueIdentifier>
     </Filter>
@@ -72,9 +87,27 @@
     <ClCompile Include="..\..\Source\Aura\Private\Players\XPlayerController.cpp">
       <Filter>Source\Aura\Private\Players</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\Players\XPlayerState.cpp">
+      <Filter>Source\Aura\Private\Players</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Public">
       <UniqueIdentifier>{812D085E-218E-32A1-B6D9-A817B3D0072A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Aura\Public\AbilitySystem">
+      <UniqueIdentifier>{E77883A5-D48A-34F9-8FEA-EA980135BDF7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\XAbilitySystemComponent.h">
+      <Filter>Source\Aura\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\XAttributeSet.h">
+      <Filter>Source\Aura\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Actors">
+      <UniqueIdentifier>{CBDCAE54-910B-380D-A904-C1BB237AA87D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Actors\XActor.h">
+      <Filter>Source\Aura\Public\Actors</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Public\Characters">
       <UniqueIdentifier>{AD8729C7-3645-3AC0-A71E-B3F61769CE03}</UniqueIdentifier>
     </Filter>
@@ -103,6 +136,9 @@
       <UniqueIdentifier>{DC2ED3E9-539C-3941-B4CF-ADBA44FCE966}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Aura\Public\Players\XPlayerController.h">
+      <Filter>Source\Aura\Public\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Aura\Public\Players\XPlayerState.h">
       <Filter>Source\Aura\Public\Players</Filter>
     </ClInclude>
   </ItemGroup>

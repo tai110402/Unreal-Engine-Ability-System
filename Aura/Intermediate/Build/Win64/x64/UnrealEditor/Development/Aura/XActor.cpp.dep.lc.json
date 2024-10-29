@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\private\\actors\\xactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\public\\actors\\xactor.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xactor.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

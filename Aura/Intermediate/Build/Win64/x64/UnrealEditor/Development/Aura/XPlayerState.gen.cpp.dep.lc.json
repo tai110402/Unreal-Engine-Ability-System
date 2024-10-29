@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xplayerstate.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\source\\aura\\public\\players\\xplayerstate.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
+            "c:\\users\\tail1\\onedrive\\desktop\\unreal-engine-ability-system\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\xplayerstate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
